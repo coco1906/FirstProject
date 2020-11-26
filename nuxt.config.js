@@ -1,4 +1,5 @@
 export default {
+  target: ProcessingInstruction.env.NUXT_RED_TARGET || 'static'
   /*
   ** Headers of the page
   ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
