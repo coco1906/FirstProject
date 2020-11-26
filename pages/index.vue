@@ -10,8 +10,10 @@
         /></a>
         <NLink to="/about" class="button--grey">About</NLink>
       </div>
-      <div style="margin:1rem;">
-        <ul style="text-align:left">
+      <div style="margin: 1rem">
+        <h2>Contentful content...</h2>
+        <hr />
+        <ul style="text-align: left; margin-top: 0.5rem">
           <li v-for="(item, key) in posts" :key="key">
             <h2>{{ item.fields.title }}</h2>
           </li>
